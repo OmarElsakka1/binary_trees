@@ -14,14 +14,9 @@ binary_tree_t *new_pt;
 new_pt = malloc(sizeof(binary_tree_t));
 if (new_pt == NULL)
 {
-<<<<<<< HEAD
 return (NULL);
 }
-=======
-  return (NULL);
-}
 
->>>>>>> eb682ed0dac2956cd5ace04f6a8d95bf557f4c05
 new_pt->n = value;
 new_pt->parent = parent;
 new_pt->left = NULL;
